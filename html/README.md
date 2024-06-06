@@ -1,1 +1,0 @@
-`pwd` is a present working directory
