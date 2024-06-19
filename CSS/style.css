@@ -3,6 +3,14 @@
   margin: 0;
   /*Entire view port*/
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p.card{
+  text-align: center;
+}
+body {
+  font-size: 30px;
 }
 
 h2,
@@ -33,6 +41,15 @@ h1 {
   border-bottom: 2px solid red;
   padding-top: 5px;
   padding-bottom: 10px;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  background-color: blue;
+  text-align: center;
+  background-color: rgb(255, 255, 0);
+  opacity: 80%;
 }
 .model div {
   height: 100px;
@@ -42,14 +59,15 @@ h1 {
 }
 .model {
   border: 3px solid black;
+  border-style: dotted;
   padding: 20px 0;
   margin: 10px;
 }
-.model div:nth-child(1){
-    margin-top: 0;
-    margin-right: 200px;
-    margin-bottom: 0;
-    margin-left: 100px;
+.model div:nth-child(1) {
+  margin-top: 0;
+  margin-right: 200px;
+  margin-bottom: 0;
+  margin-left: 100px;
 }
 
 /* DRY principle - Don't repeat yourselves*/
